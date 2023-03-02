@@ -1,0 +1,110 @@
+<!DOCTYPe html>
+<html lang="en">
+<head>
+        <title> Job-Search.com </title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<div class="topnav">
+
+<a href="about-us.html">About</a>
+<a href="user-register.html">Post your information</a>
+<a href="search-job.html">Search for a Job</a>
+<a href="index.html">Home</a>
+</div>
+
+<h1 style="text-align: center;"><span style="color: #ff0000;"><strong>Welcome to Job-Search.com</strong></span></h1>
+<p>&nbsp;</p>
+
+
+<h1 style="text-align: center;"> Update your details</h1>
+
+<form action="update-data.php" method="post">
+
+<table border=1 class="center"; >
+	<tr>
+                <td><label>First Name</label></td> <td><input name="f_name" type="text" /></td>
+        </tr>
+        <tr>
+                <td><label> Last Name</label></td> <td><input name="l_name" type="text" /></td>
+        </tr>
+        <tr>
+                <td><label>Gender</label></td>
+                <td><input name="gender" type="radio" value="male" />Male <input name="gender" type="radio" value="female" />Female</td>
+        </tr>
+         <tr>
+                <td><label>Enter Email</label></td> <td><input name="email" type="email" /></td>
+        </tr>
+        <tr>
+                <td><label>Enter Mobile</label></td><td><input name="mobile" type="text" /></td>
+        </tr>
+	<tr>
+                <td><label>Date of Birth</label></td><td><input name="dob" type="date" /></td>
+        </tr>
+	<tr>
+                <td><label>Address</label></td><td><textarea name="address"> </textarea></td>
+        </tr>
+
+        <tr>
+                <td><label>Academic Qualification</label></td><td><textarea name="a_qualification"> </textarea></td>
+        </tr>
+        <tr>
+                <td><label>Global Certification</label></td><td><textarea name="g_certification"> </textarea></td>
+        </tr>
+	<tr>
+                <td><label>Year of Experience</label></td><td><input name="y_experience" type="text" /></td>
+        </tr>
+	<tr>
+                <td><label>Current working company</label></td><td><input name="c_company" type="text" /></td>
+        </tr>
+
+	<tr>
+                <td><label>Last working company</label></td><td><input name="l_company" type="text" /></td>
+        </tr>
+	<tr>
+                <td><label>Job Location </label></td><td><select name="location">
+ 							<option value="mumbai">Mumbai</option>
+  							<option value="delhi">Delhi</option>
+  							<option value="pune">Pune</option>
+  							<option value="bangalore">Bangalore</option>
+							</select>
+							</td>
+        </tr>
+
+	<tr>
+                <td><label>Notice period</label></td><td><input name="n_period" type="text" /></td>
+        </tr>
+        <tr>
+
+		<td><label>Hand on Technology </label></td><td><select name="h_technology">
+                						<option value="linux">Linux</option> 
+		    						<option value="windows"> Windows</option>
+		    						<option value="backup"> Backup </option>
+		    						<option value="storage"> Storage </option>
+		    						<option value="Network"> Network </option>
+		   						 </select></td>
+        </tr>
+        <tr>
+               <td><label>Your Image</label></td><td><input name="y_image" type="file" /></td>
+        </tr>
+     
+
+	<tr>
+		<td><input style="font-size: 20px;" type="reset"></td>
+		<td><input style="font-size: 20px;" name="save" type="submit" value="Submit" /></td>
+	</tr>
+</table>
+
+<p>&nbsp;</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/images/job-search3.jpg" alt="/images/job-search3.jpg" width="300" height="200" /></p>
+
+<br>
+<p style="text-align: center;"><a href="index.html">Back to home</a></p>
+
+</form>
+
+</body>
+</html>
